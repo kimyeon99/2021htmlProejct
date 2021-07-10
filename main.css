@@ -1,0 +1,275 @@
+body {
+  width: 1200px;
+  height: 933px;
+  margin: 0 auto;
+  position: relative;
+}
+.Title {
+  margin-top: 50px;
+  border: solid 1px black;
+  width: 396px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.iog1 {
+  width: 396px;
+  height: 100px;
+}
+.iog2 {
+  width: 1198px;
+  height: 700px;
+}
+.nav {
+  width: 802px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  margin-top: 50px;
+  z-index: 1;
+}
+.main {
+  border: solid 1px black;
+  width: 1198px;
+  height: 700px;
+  position: relative;
+  top: 151px;
+  right: 0;
+}
+
+.Title2 {
+  border: solid 1px black;
+  width: 1198px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* 상단바 펼치기 */
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu > li {
+  float: left;
+  position: relative;
+  width: 264.9px;
+  border: solid 1px black;
+  height: 100px;
+}
+
+#main-menu > li > a {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  display: block;
+  padding: 41px 36px;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#main-menu > li:nth-child(1) > a {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#sub-menu {
+  position: absolute;
+  background: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s ease-in;
+}
+
+#sub-menu > li {
+  padding: 16px 28px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#sub-menu > li > a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+#main-menu > li:hover #sub-menu {
+  opacity: 1;
+  visibility: visible;
+  width: 266.65px;
+}
+
+#sub-menu > li > a:hover {
+  text-decoration: underline;
+}
+/* 상단바 펼치기 */
+
+p {
+  width: 500px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 0 0 10px;
+}
+.iog4 {
+  width: 40px;
+  height: 40px;
+}
+
+.link {
+  height: 80px;
+  display: inline-block;
+}
+
+.mainlink {
+  width: 1198px;
+  height: 80px;
+  position: relative;
+}
+.linkimg {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+.box2 {
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  top: 70px;
+  left: 220px;
+}
+
+.boxA {
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  top: 400px;
+  left: 540px;
+}
+
+.box3 {
+  position: absolute;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  top: 500px;
+  left: 440px;
+}
+
+.box4 {
+  position: absolute;
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  top: 140px;
+  left: 625px;
+}
+
+.box5 {
+  position: absolute;
+  background-color: darkcyan;
+  width: 20px;
+  height: 20px;
+  top: 80px;
+  left: 545px;
+}
+
+.box6 {
+  position: absolute;
+  background-color: aqua;
+  width: 20px;
+  height: 20px;
+  top: 180px;
+  left: 95px;
+}
+
+.box7 {
+  position: absolute;
+  background-color: chartreuse;
+  width: 20px;
+  height: 20px;
+  top: 340px;
+  left: 185px;
+}
+
+.box8 {
+  position: absolute;
+  background-color: rebeccapurple;
+  width: 20px;
+  height: 20px;
+  top: 365px;
+  left: 345px;
+}
+
+.box9 {
+  position: absolute;
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  top: 380px;
+  left: 525px;
+}
+
+.box10 {
+  position: absolute;
+  background-color: olive;
+  width: 20px;
+  height: 20px;
+  top: 250px;
+  left: 625px;
+}
+
+.box11 {
+  position: absolute;
+  background-color: lightpink;
+  width: 20px;
+  height: 20px;
+  top: 245px;
+  left: 743px;
+}
+
+.box12 {
+  position: absolute;
+  background-color: darkgray;
+  width: 20px;
+  height: 20px;
+  top: 185px;
+  left: 790px;
+}
+
+.box13 {
+  position: absolute;
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+  top: 380px;
+  left: 823px;
+}
+
+.box2-img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.box2:hover .box2-img {
+  transition: 0.4s all;
+  opacity: 1;
+  visibility: visible;
+}
+
+#box3-img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#box3:hover #box3-img {
+  transition: 0.4s all;
+  opacity: 1;
+  visibility: visible;
+}
